@@ -1,0 +1,132 @@
+
+body {
+ 	background-image: url("homePageBackground.jpg");
+ 	background-size: cover;
+ 	opacity: 1;
+ 	
+ 	
+
+ 	
+
+}
+
+li {
+    float: left;
+    list-style: none;
+}
+
+.currentPage{
+	text-decoration: none;
+	color:white;
+	font-family: 'Flamenco', cursive;	
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: white;
+}
+a:hover{
+	color: white;
+	text-decoration: none;
+}
+
+a:visited{
+	color:white;
+	text-decoration: none;
+}
+
+a {
+	font-size: 20px;
+	text-decoration: none;
+	font-family: 'Flamenco', cursive;	
+	color: white;
+	text-decoration: none;
+
+}
+
+.navArea{
+	padding-left: 90px;
+	padding-top: 20px;
+}
+
+.homeNavLink, .aboutMeNavLink{
+	margin-right: 40px;
+}
+
+.topRow{
+	margin-bottom: 150px;
+}
+.hiIm{
+	color: white;
+	font-family: 'Flamenco', cursive;	
+	font-size: 75px;
+
+}
+
+.description{
+	color: white;
+	font-family: 'Flamenco', cursive;	
+	padding-left: 50px;
+	text-align: center;
+	padding-right: 100px;
+	font-size: 20px;
+}
+
+.name{
+	padding-left: 270px;
+	padding-right: 315px;
+
+}
+
+.linkedinImgArea{
+	margin-left: 50px;
+}
+
+.linkedinImg{
+	width: 30px;
+	height: 30px;
+}
+
+.imag{
+	width: 200px;
+	height: 200px;
+	border-radius: 100px;
+	opacity: 0.5;
+	border-width: 5px;
+	border-color: white;
+}
+
+.imgLocation{
+	margin-left: 40px;
+
+}
+
+.whoAmI {
+	color: white;
+	font-family: 'Flamenco', cursive;	
+	font-size: 30px;
+}
+
+.aboutMe{
+	color: white;
+	font-family: 'Flamenco', cursive;	
+	font-size: 18px;
+}
+
+.aboutMeArea {
+}
+
+.linkedinImage, .facebookImage{
+	width: 25px;
+	height: 25px;
+}
+
+.myImg{
+	width: 70%;
+	height: 70%;
+	opacity: 0.4;
+	border-radius: 10px;
+}
+
+.contactMeLinks{
+	text-align: center;
+}
+

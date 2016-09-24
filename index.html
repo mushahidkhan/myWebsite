@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="websiteModule">
+<head>
+  <title>Mushahid Khan</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Asap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Flamenco|Palanquin" rel="stylesheet">
+
+  <script>
+  	$(document).ready(function(){
+  		$("a").click(function() {
+  			$("a").removeClass("currentPage");
+  			$(this).addClass("currentPage");
+  		});
+
+  	$.get( "http://quotes.rest/qod.json", function( data ) {
+  		console.log(data);
+  		var author = + data['contents']['quotes']['0']['author']; 
+  	  	var quote = "Quote of the day: " + "\"" + data['contents']['quotes']['0']['quote'] +"\"";
+	  $('.description').text(quote);
+	  });
+  	});
+  </script>
+
+</head>
+
+<body>
+	<div class = "container">
+		<div class ="row page1">
+			<div class ="row topRow">
+				<div class ="col-md-7"></div>
+				<div class ="col-md-5 navArea">
+					<ul>
+					  <li><h4><a class = "homeNavLink link currentPage" href="index.html">Home</a><h3></li>
+					  <li><h4><a class ="aboutMeNavLink link" href="aboutMe.html">Who am I?</a><h3></li>
+					  <li><h4><a class = "projectsNavLink link" href="#contact">Projects</a><h3></li>
+					</ul>
+				</div>
+			</div>
+
+			<div class = "row">
+				<div class = "col-md-0"></div>
+				<div class = "col-md-12 name"><h1 class = "hiIm">MUSHAHID KHAN</h1></div>
+				<div class = "col-md-0"></div>
+			</div>
+			
+			<div class = "row">
+				<div class = "col-md-2"></div>
+				<div class = "col-md-8 description"><p class = "description"></p></div>
+				<div class = "col-md-2"></div>
+			</div>
+		</div>
+
+
+	</div>
+</body>

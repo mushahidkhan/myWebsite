@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="websiteModule">
+<head>
+  <title>Mushahid Khan</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Asap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Flamenco|Palanquin" rel="stylesheet">
+
+  <script>
+  	$(document).ready(function(){
+  		$("a").click(function() {
+  			$("a").removeClass("currentPage");
+  			$(this).addClass("currentPage");
+  		});
+  	});
+  </script>
+
+</head>
+
+<body>
+	<div class = "container">
+		<div class ="row">
+			<div class ="col-md-7"></div>
+			<div class ="col-md-5 navArea">
+				<ul>
+				  <li><h4><a class = "homeNavLink link" href="index.html">Home</a><h3></li>
+				  <li><h4><a class ="aboutMeNavLink currentPage link" href="aboutMe.html">Who am I?</a><h3></li>
+				  <li><h4><a class = "projectsNavLink link" href="projects.html">Projects</a><h3></li>
+				</ul>
+			</div>
+		</div>
+
+		<div class = "row"> 
+			<div class = "col-md-2"></div>
+			<div class = "col-md-5">
+				<div class = "row">
+					<div class = "col-md-12"><h5 class = "whoAmI">Who am I? I am so glad you asked.</h5>/</div>
+				</div>
+			</div>
+			<div class = "col-md-5"></div>
+		</div>
+
+		<div class = "row" >
+			<div class = "col-md-2"></div>
+			<div class = "col-md-5">
+				<div class = "row aboutMeArea">
+					<div class = "col-md-12 ">
+						<div class = "row "> <h5 class = "aboutMe">My name is Mushahid Khan and I am a fourth year Mathematics student at the University of Waterloo. Yes, that is me on the right, not Jon Snow in glasses. I am tech-savy and have been ever since I attended my first hackathon. I have a wide range of tech experience including web developement, game developement and mobile develeopement. I am always on the look out to learning new technologies. Do check my projects out! Currently I am working on some COOL Phone Gap Framework Projects.</h5>
+						</div>
+						<div class = "row">
+							<h5 class = "aboutMe">
+								Apart from tech, I am also involved in the enterprenurship, particularly social enterpreneurship. I have co-founded and am currently the co-lead of Pakathon Waterloo. Pakathon Waterloo is the Waterloo chapter of Pakathon, which is a global initiative with over 15 chapters around the world that aims to promote social enterpreurship in developing as well as underdeveloped countries like Pakistan.
+							</div>
+							<div class = "row">
+							<h5 class = "aboutMe">
+								If you want to get in touch to discuss some tech related things or just want to hang out to drink coffee(or tea, because I LOVE tea) and discuss some Game of Thrones theories, feel free to reach out to me.
+							</div>
+							<div class = "row contactMeLinks">
+								<a href ="https://ca.linkedin.com/in/mushahid-khan-a097a564"><img src="linkedinImage.png" class ="linkedinImage"></a>
+								<a href = "https://www.facebook.com/mushahidnk"><img src = "facebookImage.png" class ="facebookImage"></a>
+							</div>
+						</div>
+					</div>
+			</div>
+			<div class = "col-md-5">
+				<img src = "me.jpg" class ="myImg">
+			</div>
+		</div>
+
+
+	</div>
+</body>

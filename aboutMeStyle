@@ -1,0 +1,6 @@
+
+body {
+ 	background-image: url("homePageBackground.jpg");
+ 	background-size: cover;
+ 	opacity: 1;
+}
